@@ -7,6 +7,7 @@ export const HeaderWrapper = styled.header`
     flex 
     justify-center
     dark:text-accent
+    font-semibold
   `}
 `;
 
@@ -15,5 +16,13 @@ export const HeaderInner = styled(Wrapper)`
     py-6
     flex 
     justify-between
+    relative
+  `}
+`;
+
+export const MenuIcon = styled.button`
+  ${tw`
+    lg:hidden
+    text-3xl 
   `}
 `;

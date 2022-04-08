@@ -5,7 +5,10 @@ import { AppWrapper } from './App.style';
 
 const App = () => {
   return (
-    <div className="dark">
+    <div
+      id="app"
+      className="dark"
+    >
       <AppWrapper>
         <Header />
         <Routes />

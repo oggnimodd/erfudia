@@ -7,10 +7,10 @@ const { accent } = tailwindConfig.theme.extend.colors;
 
 export const NavigationWrapper = styled.ul`
   ${tw`
-    flex 
+    hidden
+    lg:flex 
     gap-x-10
     items-center
-    font-semibold
   `}
 `;
 
@@ -26,9 +26,12 @@ export const NavItem = styled.div`
       h-full 
       flex
       items-center
+      bg-gradient-to-r 
+      from-black 
+      to-black
+      dark:(from-accent to-accent)
     `}
 
-    background-image: linear-gradient(${accent}, ${accent});
     background-position: 50% 90%;
     background-repeat: no-repeat;
     background-size: 0% 3px;

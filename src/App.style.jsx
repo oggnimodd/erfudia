@@ -5,5 +5,6 @@ export const AppWrapper = styled.div`
     w-full 
     min-h-screen
     dark:bg-black
+    relative
   `}
 `;
