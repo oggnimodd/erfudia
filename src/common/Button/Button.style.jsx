@@ -13,9 +13,12 @@ export default styled.button`
     border
     border-primary
     hover:(bg-white text-black)
-
     dark:(bg-accent text-primary border-accent)
     dark:hover:(bg-primary text-accent)
+  
+    transition-all
+    ease-in-out 
+    duration-300
   `}
 `;
 
