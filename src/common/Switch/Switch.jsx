@@ -6,13 +6,13 @@ import tailwindConfig from 'tailwind.config.js';
 import { HandleIcon } from './Switch.style';
 
 const ReactSwitch = S.default ? S.default : S;
-const { accent } = tailwindConfig.theme.extend.colors;
+const { accent, primary } = tailwindConfig.theme.extend.colors;
 
 const Switch = ({ handleChange, checked }) => {
   return (
     <ReactSwitch
       onColor={accent}
-      offColor="#000"
+      offColor={primary}
       onHandleColor="#fff"
       offHandleColor="#fff"
       onChange={handleChange}

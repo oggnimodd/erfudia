@@ -9,5 +9,5 @@ export const HandleIcon = styled.div`
     flex
   `}
 
-  ${({ checked }) => (checked ? tw`text-accent` : tw`text-black`)}
+  ${({ checked }) => (checked ? tw`text-accent` : tw`text-primary`)}
 `;

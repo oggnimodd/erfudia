@@ -29,8 +29,8 @@ export const NavItem = styled.div`
       flex
       items-center
       bg-gradient-to-r 
-      from-black 
-      to-black
+      from-primary 
+      to-primary
       dark:(from-accent to-accent)
     `}
 

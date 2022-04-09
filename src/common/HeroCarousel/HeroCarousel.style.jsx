@@ -35,7 +35,7 @@ export const Description = styled.h2`
   ${tw`
     lg:text-lg
     dark:text-accent
-    text-black
+    text-primary
     font-bold
     max-w-[60%]
   `}
@@ -61,7 +61,7 @@ export const NavigationButton = styled.button`
     justify-center
     border
     dark:(text-white border-white)
-    text-black
-    border-black
+    text-primary
+    border-primary
   `}
 `;

@@ -6,7 +6,7 @@ export const NavigationWrapper = styled(Wrapper)`
     lg:hidden 
     w-full
     absolute
-    dark:(bg-black text-accent)
+    dark:(bg-primary text-accent)
     bg-white
     absolute
     top-[84px]
@@ -39,8 +39,8 @@ export const NavItem = styled.li`
       flex
       items-center
       bg-gradient-to-r 
-      from-black 
-      to-black
+      from-primary 
+      to-primary
       dark:(from-accent to-accent)
     `}
 

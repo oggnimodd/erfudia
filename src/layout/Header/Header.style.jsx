@@ -8,7 +8,7 @@ export const HeaderWrapper = styled.header`
     justify-center
     dark:text-accent
     font-semibold
-    dark:bg-black 
+    dark:bg-primary 
   `}
 `;
 
