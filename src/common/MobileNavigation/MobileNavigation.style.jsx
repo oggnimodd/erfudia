@@ -4,17 +4,22 @@ import { Wrapper } from '../Wrapper';
 export const NavigationWrapper = styled(Wrapper)`
   ${tw`
     lg:hidden 
-    flex
-    flex-col
     w-full
     absolute
     dark:(bg-black text-accent)
     bg-white
-    flex 
-    flex-col
     absolute
     top-[84px]
     left-0
+  `}
+`;
+
+export const NavigationList = styled.ul`
+  ${tw`
+    flex
+    flex-col
+    w-full
+    h-full
     gap-y-5
   `}
 `;

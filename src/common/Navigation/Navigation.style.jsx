@@ -5,10 +5,16 @@ import tailwindConfig from 'tailwind.config.js';
 
 const { accent } = tailwindConfig.theme.extend.colors;
 
-export const NavigationWrapper = styled.ul`
+export const NavigationWrapper = styled.nav`
   ${tw`
     hidden
-    lg:flex 
+    lg:block
+  `}
+`;
+
+export const NavigationList = styled.ul`
+  ${tw`
+    flex 
     gap-x-10
     items-center
   `}
