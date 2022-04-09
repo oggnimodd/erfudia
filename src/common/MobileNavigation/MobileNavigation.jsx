@@ -4,6 +4,7 @@ import { NavigationWrapper, NavItem, NavigationList } from './MobileNavigation.s
 import { navlinks }from '../../config/navlinks';
 import { isNotEmpty } from '../../util/isNotEmpty';
 import { NavLink } from '../Link/Link';
+import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
 
 const MobileNavigation = (props) => {
   return (
@@ -24,6 +25,7 @@ const MobileNavigation = (props) => {
               );
             })
           }
+          <ThemeSwitch />
         </NavigationList>
       </NavigationWrapper>
     </Portal>
