@@ -11,7 +11,10 @@ export const NavigationWrapper = styled(Wrapper)`
     absolute
     top-[84px]
     left-0
+    z-[1000]
   `}
+
+  height: calc(100% - 84px);
 `;
 
 export const NavigationList = styled.ul`

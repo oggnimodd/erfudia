@@ -15,6 +15,11 @@ const App = () => {
       <AppWrapper>
         <Header />
         <Routes />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </AppWrapper>
     </div>
   );
