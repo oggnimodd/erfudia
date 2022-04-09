@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 import { Wrapper } from '../Wrapper';
 
-export const MainDescriptionWrapper = styled.div`
+export const MainDescriptionWrapper = styled(Wrapper)`
   ${tw`
     flex 
     flex-col
@@ -9,7 +9,8 @@ export const MainDescriptionWrapper = styled.div`
     justify-center
     lg:max-w-[60%]
     mx-auto
-    py-20
+    pt-32
+    pb-20
     gap-y-7
   `}
 `;

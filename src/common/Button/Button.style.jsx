@@ -27,7 +27,7 @@ export const Icon = styled.div`
     w-10
     flex
     items-center 
-    justify-center
+    justify-end
     text-xl
   `}
 `;

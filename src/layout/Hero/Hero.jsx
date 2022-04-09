@@ -9,7 +9,6 @@ const Hero = () => {
     <HeroWrapper>
       <HeroText />
       <HeroCarousel />
-      <MainDescription />
     </HeroWrapper>
   );
 };
