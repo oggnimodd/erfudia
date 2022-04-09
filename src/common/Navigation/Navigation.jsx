@@ -3,6 +3,7 @@ import { navlinks } from '../../config/navlinks';
 import { isNotEmpty } from '../../util/isNotEmpty';
 import { NavigationWrapper, NavItem, NavigationList } from './Navigation.style';
 import { NavLink } from '../Link/Link';
+import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
 
 const Navigation = () => {
   return (
@@ -22,6 +23,7 @@ const Navigation = () => {
             );
           })
         }
+        <ThemeSwitch />
       </NavigationList>
     </NavigationWrapper>
   );

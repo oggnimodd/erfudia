@@ -8,7 +8,6 @@ const CustomStyles = createGlobalStyle`
       antialiased
       font-primary
       relative
-      dark:bg-black
       w-full
     `}
   }

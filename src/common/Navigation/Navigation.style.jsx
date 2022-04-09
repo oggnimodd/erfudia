@@ -1,10 +1,5 @@
 import tw, { styled } from 'twin.macro';
 
-// eslint-disable-next-line import/no-unresolved
-import tailwindConfig from 'tailwind.config.js';
-
-const { accent } = tailwindConfig.theme.extend.colors;
-
 export const NavigationWrapper = styled.nav`
   ${tw`
     hidden
@@ -17,6 +12,7 @@ export const NavigationList = styled.ul`
     flex 
     gap-x-10
     items-center
+    h-full
   `}
 `;
 
