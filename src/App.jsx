@@ -3,6 +3,7 @@ import Routes from './Routes';
 import Header from './layout/Header/Header';
 import { AppWrapper } from './App.style';
 import useThemeStore from './store/useThemeStore';
+import Footer from './layout/Footer/Footer';
 
 const App = () => {
   const theme = useThemeStore((state) => state.theme);
@@ -14,15 +15,7 @@ const App = () => {
     >
       <Header />
       <Routes />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Footer />
     </AppWrapper>
   );
 };

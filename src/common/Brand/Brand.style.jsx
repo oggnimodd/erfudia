@@ -7,5 +7,6 @@ export const BrandWrapper = styled.h1`
     font-bold
     text-3xl
     uppercase
+    dark:text-accent
   `}
 `;

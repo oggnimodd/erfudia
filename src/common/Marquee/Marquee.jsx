@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarquee from 'react-fast-marquee';
+import short from 'short-uuid';
 import { MarqueeWrapper, TextWrapper, Square } from './Marquee.style';
 
 const Marquee = ({ cloneCount = 20, text = 'Lorem Ipsum' }) => {
@@ -14,7 +15,7 @@ const Marquee = ({ cloneCount = 20, text = 'Lorem Ipsum' }) => {
         {
           items.map(() => {
             return (
-              <TextWrapper>
+              <TextWrapper key={short.generate()}>
                 <Square />
                 {text}
               </TextWrapper>
