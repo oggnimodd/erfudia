@@ -5,6 +5,7 @@ import PortfolioPreview from '../../common/PortfolioPreview/PortfolioPreview';
 import ServicesGrid from '../../common/ServicesGrid/ServicesGrid';
 import ProfileVideo from '../../common/ProfileVideo/ProfileVideo';
 import Testimonials from '../../common/Testimonials/Testimonials';
+import Marquee from '../../common/Marquee/Marquee';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServicesGrid />
       <ProfileVideo />
       <Testimonials />
+      <Marquee text="In creativity we trust" />
     </>
   );
 };

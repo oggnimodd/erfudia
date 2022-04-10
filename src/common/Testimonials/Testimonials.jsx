@@ -28,8 +28,6 @@ const swiperSettings = {
 const Testimonials = () => {
   const [paginationEl, paginationRef] = useSwiperRef();
 
-  console.log(paginationEl);
-
   return (
     <TestimonialsWrapper>
       <CarouselWrapper>
