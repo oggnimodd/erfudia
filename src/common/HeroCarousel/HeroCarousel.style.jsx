@@ -60,8 +60,9 @@ export const NavigationButton = styled.button`
     items-center
     justify-center
     border
-    dark:(text-white border-white)
     text-primary
     border-primary
+    dark:(text-white border-white)
+    dark:hover:(text-accent border-accent)
   `}
 `;
