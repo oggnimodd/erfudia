@@ -10,7 +10,7 @@ const Header = () => {
   const { showNavigation, toggleNavigation } = useShowNavigation();
 
   return (
-    <HeaderWrapper>
+    <HeaderWrapper showNavigation={showNavigation}>
       <HeaderInner>
         <Brand />
         <MenuIcon onClick={toggleNavigation}>

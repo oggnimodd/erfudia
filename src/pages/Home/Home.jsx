@@ -3,6 +3,7 @@ import Hero from '../../layout/Hero/Hero';
 import MainDescription from '../../common/MainDescription/MainDescription';
 import PortfolioPreview from '../../common/PortfolioPreview/PortfolioPreview';
 import ServicesGrid from '../../common/ServicesGrid/ServicesGrid';
+import ProfileVideo from '../../common/ProfileVideo/ProfileVideo';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <MainDescription />
       <PortfolioPreview />
       <ServicesGrid />
+      <ProfileVideo />
     </>
   );
 };

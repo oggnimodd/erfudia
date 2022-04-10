@@ -8,20 +8,13 @@ const App = () => {
   const theme = useThemeStore((state) => state.theme);
 
   return (
-    <div
+    <AppWrapper
       id="app"
       className={theme}
     >
-      <AppWrapper>
-        <Header />
-        <Routes />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </AppWrapper>
-    </div>
+      <Header />
+      <Routes />
+    </AppWrapper>
   );
 };
 

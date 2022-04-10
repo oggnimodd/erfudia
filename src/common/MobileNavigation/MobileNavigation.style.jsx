@@ -8,10 +8,10 @@ export const NavigationWrapper = styled(Wrapper)`
     absolute
     dark:(bg-primary text-accent)
     bg-white
-    absolute
     top-[84px]
     left-0
     z-[1000]
+    fixed
   `}
 
   height: calc(100% - 84px);

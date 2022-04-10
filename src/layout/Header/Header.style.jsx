@@ -10,6 +10,9 @@ export const HeaderWrapper = styled.header`
     font-semibold
     dark:bg-primary 
   `}
+
+
+  /* ${({ showNavigation }) => showNavigation && tw`fixed z-[9999]`} */
 `;
 
 export const HeaderInner = styled(Wrapper)`

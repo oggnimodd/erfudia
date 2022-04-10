@@ -9,8 +9,6 @@ import {
 const ServicesGridCard = ({ item, order }) => {
   const { label, description } = item;
 
-  console.log(order);
-
   return (
     <Card>
       <Label>
