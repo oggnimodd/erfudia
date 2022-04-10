@@ -32,7 +32,7 @@ export const TestimonialText = styled.p`
     text-xl
     md:text-2xl 
     font-bold
-    mb-3
+    mb-10
     text-black 
     dark:text-white
   `}
