@@ -14,6 +14,15 @@ const App = () => {
     >
       <Header />
       <Routes />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </AppWrapper>
   );
 };
