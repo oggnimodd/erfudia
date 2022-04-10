@@ -13,6 +13,7 @@ export const CarouselWrapper = styled.div`
   ${tw`
     w-[95%]
     xl:w-8/12
+    pr-2
   `}
 `;
 
@@ -52,7 +53,6 @@ export const TestimonialCompany = styled.div`
 
 export const BulletWrapper = styled.div`
   ${tw`
-    ml-5
     flex 
     flex-col 
     h-full
