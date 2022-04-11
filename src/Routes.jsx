@@ -12,15 +12,15 @@ import Services from './pages/Services/Services';
 import { isNotEmpty } from './util/isNotEmpty';
 
 const routes = [
-  { path: '/about', el: About },
-  { path: '/faq', el: Faq },
+  { path: 'about', el: About },
+  { path: 'faq', el: Faq },
   { path: '/', el: Home },
-  { path: '/our-team', el: OurTeam },
-  { path: '/our-team/:personId', el: PersonSingle },
-  { path: '/portfolio', el: Portfolio },
-  { path: '/portfolio/:portfolioId', el: PortfolioSingle },
-  { path: '/contact', el: Contact },
-  { path: '/services', el: Services },
+  { path: 'our-team', el: OurTeam },
+  { path: 'our-team/:personId', el: PersonSingle },
+  { path: 'portfolio', el: Portfolio },
+  { path: 'portfolio/:portfolioId', el: PortfolioSingle },
+  { path: 'contact', el: Contact },
+  { path: 'services', el: Services },
 ];
 
 const Routes = () => {

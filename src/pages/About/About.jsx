@@ -1,8 +1,26 @@
 import React from 'react';
+import ServicesGrid from '../../common/ServicesGrid/ServicesGrid';
+import ProfileVideo from '../../common/ProfileVideo/ProfileVideo';
+import Testimonials from '../../common/Testimonials/Testimonials';
+import Marquee from '../../common/Marquee/Marquee';
+import PageHeader from '../../common/PageHeader/PageHeader';
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <PageHeader
+        subtitle="What we do ?"
+        title="THIS IS THE MAGIC THAT GOES ON
+        IN OUR CREATIVE COMPANY FOR 10 YEARS NOW."
+        btnInfo="Contact Us"
+        path="/contact"
+        bg="https://images.pexels.com/photos/5103899/pexels-photo-5103899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ServicesGrid />
+      <ProfileVideo />
+      <Testimonials />
+      <Marquee text="In creativity we trust" />
+    </>
   );
 };
 

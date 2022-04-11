@@ -20,6 +20,15 @@ export default styled.button`
     ease-in-out 
     duration-300
   `}
+
+
+  ${({ light }) => light && tw`
+    bg-white 
+    text-primary 
+    border-transparent
+    hover:(border-white bg-transparent text-white)
+    dark:hover:(bg-transparent text-accent border-accent)
+  `}
 `;
 
 export const Icon = styled.div`

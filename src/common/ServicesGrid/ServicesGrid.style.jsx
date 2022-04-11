@@ -5,7 +5,10 @@ export const GridWrapper = styled(Wrapper)`
   ${tw`
     flex 
     flex-col
-    gap-y-2
+    gap-y-2 
+    pt-5 
+    pb-10
+    md:(pt-10 pb-20)
   `}
 `;
 
