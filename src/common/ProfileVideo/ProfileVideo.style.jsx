@@ -60,7 +60,8 @@ export const Backdrop = styled(RadixDialog.Overlay)`
     h-screen 
     fixed 
     bg-black 
-    opacity-80
+    opacity-80 
+    z-[14000]
   `}
 `;
 
@@ -76,6 +77,7 @@ export const VideoPlayer = styled(RadixDialog.Content)`
     -translate-y-1/2
     w-11/12 
     md:w-7/12
+    z-[15000]
   `}
 
   .youtubeContainer {

@@ -4,15 +4,15 @@ import { Wrapper } from '../../common/Wrapper';
 export const HeaderWrapper = styled.header`
   ${tw`
     w-full
-    flex 
+    block 
     justify-center
-    dark:text-accent
     font-semibold
-    dark:bg-primary 
+    sticky 
+    top-0
+    z-[9999]
+    bg-white
+    dark:(bg-primary text-accent) 
   `}
-
-
-  /* ${({ showNavigation }) => showNavigation && tw`fixed z-[9999]`} */
 `;
 
 export const HeaderInner = styled(Wrapper)`

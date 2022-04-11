@@ -7,7 +7,6 @@ import Footer from './layout/Footer/Footer';
 
 const App = () => {
   const theme = useThemeStore((state) => state.theme);
-
   return (
     <AppWrapper
       id="app"
