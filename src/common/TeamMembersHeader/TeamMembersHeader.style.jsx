@@ -35,10 +35,9 @@ export const Title = styled.div`
 export const Description = styled.div`
   ${tw`
     self-start 
-    md:self-end
     text-sm
     md:w-1/4 
-    text-right
+    md:(self-end text-right)
     dark:text-white
   `}
 `;
