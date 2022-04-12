@@ -1,8 +1,13 @@
 import React from 'react';
+import TeamMembers from '../../layout/TeamMembers/TeamMembers';
+import Marquee from '../../common/Marquee/Marquee';
 
 const OurTeam = () => {
   return (
-    <div>OurTeam</div>
+    <>
+      <TeamMembers />
+      <Marquee text="In creativity we trust" />
+    </>
   );
 };
 

@@ -6,7 +6,6 @@ import {
   PreviewHeader,
   Subtitle,
   Title,
-  HeaderLink,
 } from './PortfolioPreview.style';
 import PreviewCard from './PreviewCard';
 import { breakpoints } from '../../config/breakpoints';
@@ -14,6 +13,7 @@ import { isNotEmpty } from '../../util/isNotEmpty';
 import { portfolio } from '../../data/portfolio';
 import Button from '../Button/Button';
 import Link from '../Link/Link';
+import { HeaderLink } from '../HeaderLink';
 
 const {
   sm,

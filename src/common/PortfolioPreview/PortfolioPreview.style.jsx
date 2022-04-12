@@ -58,16 +58,6 @@ export const Title = styled.div`
   `}
 `;
 
-export const HeaderLink = styled.div`
-  ${tw`
-    font-semibold
-    border-b
-    border-black
-    self-start
-    dark:(text-white border-white)
-  `}
-`;
-
 export const Card = styled.div`
   ${tw`
     flex 

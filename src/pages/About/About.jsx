@@ -4,6 +4,7 @@ import ProfileVideo from '../../common/ProfileVideo/ProfileVideo';
 import Testimonials from '../../common/Testimonials/Testimonials';
 import Marquee from '../../common/Marquee/Marquee';
 import PageHeader from '../../common/PageHeader/PageHeader';
+import TeamMembers from '../../layout/TeamMembers/TeamMembers';
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       <ProfileVideo />
       <Testimonials />
       <Marquee text="In creativity we trust" />
+      <TeamMembers preview />
     </>
   );
 };
