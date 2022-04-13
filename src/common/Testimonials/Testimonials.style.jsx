@@ -12,7 +12,7 @@ export const TestimonialsWrapper = styled(Wrapper)`
 export const CarouselWrapper = styled.div`
   ${tw`
     w-[95%]
-    xl:w-8/12
+    md:w-8/12
     pr-2
   `}
 `;
