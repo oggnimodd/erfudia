@@ -1,14 +1,8 @@
 import React from 'react';
-import * as AspectRatio from '@radix-ui/react-aspect-ratio';
 import {
   CardWrapper,
-  CardImage,
-  CardInfo,
-  Description,
-  Name,
-  Role,
 } from './TeamMemberCard.style';
-import Socmed from '../Socmed/Socmed';
+import { Image as CardImage, TeamInfo as CardInfo } from '../ListCard/ListCard';
 
 const TeamMemberCard = ({ item }) => {
   const {
@@ -20,19 +14,17 @@ const TeamMemberCard = ({ item }) => {
 
   return (
     <CardWrapper>
-      <AspectRatio.Root ratio={8 / 9}>
-        <CardImage
-          src={imageUrl}
-          alt={name}
-        />
-      </AspectRatio.Root>
-      <CardInfo>
-        <Socmed socmedLinks={socials} />
-        <Description>
-          <Name>{name}</Name>
-          <Role>{role}</Role>
-        </Description>
-      </CardInfo>
+      <CardImage
+        ratio={8 / 9}
+        imageUrl={imageUrl}
+        alt={name}
+      />
+
+      <CardInfo
+        socials={socials}
+        name={name}
+        role={role}
+      />
     </CardWrapper>
   );
 };
