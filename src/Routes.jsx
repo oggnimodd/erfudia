@@ -4,7 +4,6 @@ import About from './pages/About/About';
 import Faq from './pages/Faq/Faq';
 import Home from './pages/Home/Home';
 import OurTeam from './pages/OurTeam/OurTeam';
-import PersonSingle from './pages/PersonSingle/PersonSingle';
 import Portfolio from './pages/Portfolio/Portfolio';
 import PortfolioSingle from './pages/PortfolioSingle/PortfolioSingle';
 import Contact from './pages/Contact/Contact';
@@ -16,7 +15,6 @@ const routes = [
   { path: '/faq', el: Faq },
   { path: '/', el: Home },
   { path: '/our-team', el: OurTeam },
-  { path: '/our-team/:personId', el: PersonSingle },
   { path: '/portfolio', el: Portfolio },
   { path: '/portfolio/:portfolioId', el: PortfolioSingle },
   { path: '/contact', el: Contact },
