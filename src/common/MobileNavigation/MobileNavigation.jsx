@@ -6,7 +6,7 @@ import { isNotEmpty } from '../../util/isNotEmpty';
 import { NavLink } from '../Link/Link';
 import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
 
-const MobileNavigation = (props) => {
+const MobileNavigation = ({ closeNavigation }) => {
   return (
     <Portal node={document && document.getElementById('app')}>
       <NavigationWrapper as="nav">
@@ -18,8 +18,10 @@ const MobileNavigation = (props) => {
                   key={`navlink-item-${item.path}`}
                 >
                   <NavLink
+                    handleClick={closeNavigation}
                     to={item.path}
-                  >{item.label}
+                  >
+                    {item.label}
                   </NavLink>
                 </NavItem>
               );

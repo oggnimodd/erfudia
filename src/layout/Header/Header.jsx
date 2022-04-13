@@ -7,7 +7,7 @@ import MobileNavigation from '../../common/MobileNavigation/MobileNavigation';
 import useShowNavigation from '../../hooks/useShowNavigation';
 
 const Header = () => {
-  const { showNavigation, toggleNavigation } = useShowNavigation();
+  const { showNavigation, toggleNavigation, closeNavigation } = useShowNavigation();
 
   return (
     <HeaderWrapper showNavigation={showNavigation}>
@@ -23,7 +23,7 @@ const Header = () => {
         <Navigation />
 
         {
-          showNavigation && <MobileNavigation />
+          showNavigation && <MobileNavigation closeNavigation={closeNavigation} />
         }
       </HeaderInner>
     </HeaderWrapper>

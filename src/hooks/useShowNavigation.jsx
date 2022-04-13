@@ -8,6 +8,10 @@ const useShowNavigation = () => {
     setShowNavigation(!showNavigation);
   };
 
+  const closeNavigation = () => {
+    setShowNavigation(false);
+  };
+
   useEffect(() => {
     const closeNavigation = () => {
       if(window.innerWidth >= breakpoints.lg) {
@@ -22,7 +26,7 @@ const useShowNavigation = () => {
     };
   }, []);
 
-  return { showNavigation, toggleNavigation };
+  return { showNavigation, closeNavigation, toggleNavigation };
 };
 
 export default useShowNavigation;
