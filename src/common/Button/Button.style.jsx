@@ -10,7 +10,7 @@ export default styled.button`
     text-white
     font-semibold
     items-center 
-    border
+    border 
     border-primary
     hover:(bg-white text-black)
     dark:(bg-accent text-primary border-accent)
