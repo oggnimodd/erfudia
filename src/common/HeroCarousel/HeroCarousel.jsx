@@ -73,19 +73,19 @@ const HeroCarousel = () => {
          ))
         }
       </Swiper>
-      <NavigationWrapper
-        aria-label="Previous Slide"
-        ref={prevElRef}
-      >
+      <NavigationWrapper>
         {/* Prev */}
-        <NavigationButton>
+        <NavigationButton
+          ref={prevElRef}
+          aria-label="Previous Slide"
+        >
           <ArrowLeft />
         </NavigationButton>
 
         {/* Next */}
         <NavigationButton
-          aria-label="Next Slide"
           ref={nextElRef}
+          aria-label="Next Slide"
         >
           <ArrowRight />
         </NavigationButton>
