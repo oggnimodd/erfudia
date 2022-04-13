@@ -1,1 +1,0 @@
-# all hooks that use REACT component lifecycle
