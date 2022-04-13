@@ -67,8 +67,9 @@ export const FormDescription = styled.div`
 
 export const Information = styled.div`
   ${tw`
-    flex 
-    gap-x-5
+    flex  
+    flex-wrap
+    gap-5
   `}
 `;
 
