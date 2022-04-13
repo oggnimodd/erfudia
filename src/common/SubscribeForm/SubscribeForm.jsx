@@ -46,7 +46,10 @@ const SubscribeForm = () => {
             autoComplete="off"
             spellCheck="off"
           />
-          <SubmitButton type="submit">
+          <SubmitButton
+            aria-label="Subscribe"
+            type="submit"
+          >
             <ArrowRight />
           </SubmitButton>
         </FieldWrapper>

@@ -33,7 +33,7 @@ const ProfileVideo = () => {
         />
         <Dialog>
           {/* Trigger */}
-          <PlayButton>
+          <PlayButton aria-label="Play profile video">
             <AiFillPlayCircle />
           </PlayButton>
 

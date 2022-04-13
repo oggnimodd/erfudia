@@ -13,7 +13,10 @@ const Header = () => {
     <HeaderWrapper showNavigation={showNavigation}>
       <HeaderInner>
         <Brand />
-        <MenuIcon onClick={toggleNavigation}>
+        <MenuIcon
+          aria-label="Navigation menu icon"
+          onClick={toggleNavigation}
+        >
           {
             showNavigation
               ? <AiOutlineClose />
