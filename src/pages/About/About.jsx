@@ -6,6 +6,7 @@ import Marquee from '../../common/Marquee/Marquee';
 import PageHeader from '../../common/PageHeader/PageHeader';
 import TeamMembers from '../../layout/TeamMembers/TeamMembers';
 import Awards from '../../common/Awards/Awards';
+import JoinUs from '../../common/JoinUs/JoinUs';
 
 const About = () => {
   return (
@@ -23,6 +24,7 @@ const About = () => {
       <Testimonials />
       <TeamMembers preview />
       <Awards />
+      <JoinUs />
       <Marquee text="In creativity we trust" />
     </>
   );
