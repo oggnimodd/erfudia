@@ -9,6 +9,7 @@ import PortfolioSingle from './pages/PortfolioSingle/PortfolioSingle';
 import Contact from './pages/Contact/Contact';
 import Services from './pages/Services/Services';
 import { isNotEmpty } from './util/isNotEmpty';
+import NotFound from './pages/NotFound/NotFound';
 
 const routes = [
   { path: '/about', el: About },
@@ -19,6 +20,7 @@ const routes = [
   { path: '/portfolio/:portfolioId', el: PortfolioSingle },
   { path: '/contact', el: Contact },
   { path: '/services', el: Services },
+  { path: '*', el: NotFound },
 ];
 
 const Routes = () => {
