@@ -48,7 +48,8 @@ export const AccordionTrigger = styled(Accordion.Trigger)`
     py-10 
     select-none 
     items-center
-    dark:text-accent
+    dark:text-accent 
+    w-full
   `}
 
   svg{

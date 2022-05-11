@@ -19,7 +19,6 @@ const Accordion = () => {
     <AccordionWrapper
       type="single"
       collapsible
-      onValueChange={(v) => console.log(v)}
     >
       {
         isNotEmpty(faqs) && faqs.map((item, id) => {
@@ -30,8 +29,8 @@ const Accordion = () => {
             >
               <AccordionHeader>
                 <AccordionTrigger>
-                  <AiOutlinePlus class="plus-sign" />
-                  <AiOutlineMinus class="minus-sign" />
+                  <AiOutlinePlus className="plus-sign" />
+                  <AiOutlineMinus className="minus-sign" />
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent>
