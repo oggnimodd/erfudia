@@ -14,7 +14,7 @@ export const initialTheme = savedTheme;
 const changeTheme = (set) => {
   return set(produce((draft) => {
     const newTheme = draft.theme === 'dark' ? 'light' : 'dark';
-    draft.theme = draft.theme === 'dark' ? 'light' : 'dark';
+    draft.theme = newTheme;
     localStorage.setItem('theme', newTheme);
   }));
 };
