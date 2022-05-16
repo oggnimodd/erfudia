@@ -7,7 +7,7 @@ export const MainDescriptionWrapper = styled(Wrapper)`
     flex-col
     items-center 
     justify-center
-    lg:max-w-[60%]
+    lg:max-w-[52rem]
     mx-auto
     pt-32
     pb-20
