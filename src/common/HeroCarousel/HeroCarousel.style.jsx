@@ -22,15 +22,6 @@ export const Slide = styled.div`
   `}
 `;
 
-export const SlideImage = styled.img`
-  ${tw`
-    object-center 
-    object-cover
-    w-full 
-    h-full
-  `}
-`;
-
 export const Description = styled.h2`
   ${tw`
     lg:text-lg

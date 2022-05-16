@@ -5,7 +5,7 @@ import Faq from './pages/Faq/Faq';
 import Home from './pages/Home/Home';
 import OurTeam from './pages/OurTeam/OurTeam';
 import Portfolio from './pages/Portfolio/Portfolio';
-import PortfolioSingle from './pages/PortfolioSingle/PortfolioSingle';
+import PortfolioDetails from './pages/PortfolioDetails/PortfolioDetails';
 import Contact from './pages/Contact/Contact';
 import Services from './pages/Services/Services';
 import { isNotEmpty } from './util/isNotEmpty';
@@ -17,7 +17,7 @@ const routes = [
   { path: '/', el: Home },
   { path: '/our-team', el: OurTeam },
   { path: '/portfolio', el: Portfolio },
-  { path: '/portfolio/:portfolioId', el: PortfolioSingle },
+  { path: '/portfolio/:portfolioId', el: PortfolioDetails },
   { path: '/contact', el: Contact },
   { path: '/services', el: Services },
   { path: '*', el: NotFound },
@@ -26,12 +26,12 @@ const routes = [
 const Routes = () => {
   return (
     <ReactRouter>
-      {isNotEmpty(routes) && routes.map((item) => {
+      {isNotEmpty(routes) && routes.map(({ path, el: Item }) => {
         return (
           <Route
-            element={item.el()}
-            path={item.path}
-            key={`router-link${item.path}`}
+            element={<Item />}
+            path={path}
+            key={`router-link${path}`}
           />
         );
       })}

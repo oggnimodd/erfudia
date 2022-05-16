@@ -8,6 +8,7 @@ import {
   Role,
 } from './ListCard.style';
 import Socmed from '../Socmed/Socmed';
+import Link from '../Link/Link';
 
 export const Image = ({ imageUrl, name, ratio }) => {
   return (
@@ -36,7 +37,9 @@ export const ProjectInfo = ({ title, category }) => {
   return (
     <CardInfo>
       <Description>
-        <Name>{title}</Name>
+        <Link to="/portfolio/test">
+          <Name>{title}</Name>
+        </Link>
         <Role>{category}</Role>
       </Description>
     </CardInfo>
