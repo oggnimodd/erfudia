@@ -18,6 +18,7 @@ const MobileNavigation = ({ closeNavigation }) => {
                   key={`navlink-item-${item.path}`}
                 >
                   <NavLink
+                    end
                     handleClick={closeNavigation}
                     to={item.path}
                   >

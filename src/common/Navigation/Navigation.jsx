@@ -16,6 +16,7 @@ const Navigation = () => {
                 key={`navlink-item-${item.path}`}
               >
                 <NavLink
+                  end
                   to={item.path}
                 >{item.label}
                 </NavLink>
