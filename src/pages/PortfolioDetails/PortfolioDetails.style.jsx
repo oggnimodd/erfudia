@@ -12,6 +12,5 @@ export const DetailsWrapper = styled(Wrapper)`
 
 export const MainImage = styled(ImageFullWidth)`
   ${tw`
-    
   `}
 `;
