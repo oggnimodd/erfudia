@@ -4,22 +4,32 @@ import { MdDarkMode, MdOutlineLightMode } from 'react-icons/md';
 // eslint-disable-next-line import/no-unresolved
 import tailwindConfig from 'tailwind.config.js';
 import { HandleIcon } from './Switch.style';
+import useColorSchemeStore from '../../store/useColorSchemeStore';
+import colorSchemeList from '../../color-schemes/color-schemes.json';
+import { rgbToHex } from '../../util/rgbToHex';
 
 const ReactSwitch = S.default ? S.default : S;
-const { accent, primary } = tailwindConfig.theme.extend.colors;
 
 const Switch = ({ handleChange, checked }) => {
+  const colorScheme = useColorSchemeStore((state) => state.colorScheme);
+
+  // Get active color scheme value
+  const { accent, primary } = colorSchemeList.filter((i) => i.name === colorScheme)[0].colors;
+
+  const hexAccent = rgbToHex(accent);
+  const primaryAccent = rgbToHex(primary);
+
   return (
     <ReactSwitch
-      onColor={accent}
-      offColor={primary}
+      onColor={hexAccent}
+      offColor={primaryAccent}
       onHandleColor="#fff"
       offHandleColor="#fff"
       onChange={handleChange}
       checked={checked}
       checkedIcon={false}
       uncheckedIcon={false}
-      activeBoxShadow={`0px 0px 2px 3px ${accent}`}
+      activeBoxShadow={`0px 0px 2px 3px ${hexAccent}`}
       uncheckedHandleIcon={(
         <HandleIcon checked={checked}>
           <MdOutlineLightMode />

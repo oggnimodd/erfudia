@@ -3,14 +3,17 @@ import Routes from './Routes';
 import Header from './layout/Header/Header';
 import { AppWrapper } from './App.style';
 import useThemeStore from './store/useThemeStore';
+import useColorSchemeStore from './store/useColorSchemeStore';
 import Footer from './layout/Footer/Footer';
 
 const App = () => {
   const theme = useThemeStore((state) => state.theme);
+  const colorScheme = useColorSchemeStore((state) => state.colorScheme);
+
   return (
     <AppWrapper
       id="app"
-      className={theme}
+      className={`${theme} obsidian`}
     >
       <Header />
       <Routes />

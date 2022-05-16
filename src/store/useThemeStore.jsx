@@ -5,7 +5,7 @@ const DEFAULT_THEME = 'dark';
 
 let savedTheme = localStorage.getItem('theme');
 if(!savedTheme) {
-  localStorage.setItem('theme', 'dark');
+  localStorage.setItem('theme', DEFAULT_THEME);
   savedTheme = DEFAULT_THEME;
 }
 

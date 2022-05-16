@@ -1,0 +1,57 @@
+/* originale */
+.tritesse {
+  --primary: #0E0F1A;
+  --accent: #FF7272;
+}
+
+.gold {
+  --primary: #000000;
+  --accent : #F4BF3C;
+}
+
+.obsidian {
+  --primary: #070314;
+  --accent: #92e7d6;
+}
+
+.blackout {
+  --primary: #0c0704;
+  --accent: #FE6F27;
+}
+
+.glossy-black {
+  --primary: #18000a;
+  --accent: #f8ad8b;
+}
+
+.cosmic-void {
+  --primary: #02051F;
+  --accent: #1BE4C9;
+}
+
+.oil-slick {
+  --primary: #000501;
+  --accent: #00b837;
+}
+
+.midnight-jam {
+  --primary: #0a001f;
+  --accent: #6113ff;
+}
+
+.sooty {
+  --primary: #121212;
+  --accent: #29D482;
+}
+
+.starry {
+  --primary: #121212;
+  --accent: #eb65d4;
+}
+
+.obsidian {
+  --primary: #0e0303;
+  --accent: #e9065d;
+}
+
+
