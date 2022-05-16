@@ -27,7 +27,7 @@ export default styled.button`
     text-primary 
     border-transparent
     hover:(border-white bg-transparent text-white)
-    dark:hover:(bg-transparent text-accent border-accent)
+    dark:hover:(bg-transparent text-white border-white)
   `}
 `;
 
