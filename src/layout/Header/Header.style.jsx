@@ -12,6 +12,10 @@ export const HeaderWrapper = styled.header`
     z-[9999]
     bg-white
     dark:(bg-primary text-accent) 
+    transition 
+    transition-bg
+    ease-out-sine
+    duration-400 
   `}
 `;
 

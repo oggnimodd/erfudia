@@ -5,6 +5,10 @@ export const AppWrapper = styled.div`
     min-h-screen
     relative
     bg-white
+    transition 
+    transition-bg
+    ease-out-sine
+    duration-400 
   `}
 
   &.dark{

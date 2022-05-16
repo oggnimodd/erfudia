@@ -9,16 +9,6 @@ const CustomStyles = createGlobalStyle`
       antialiased
       font-primary
     `}
-
-
-    ${({ theme }) => (
-    theme === 'dark'
-      ? tw`
-        bg-primary
-      `
-      : tw`
-        bg-white
-      `)}
   }
 `;
 

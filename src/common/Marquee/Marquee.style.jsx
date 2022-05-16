@@ -4,7 +4,11 @@ export const MarqueeWrapper = styled.div`
   ${tw`
     w-full 
     my-10
-    bg-accent 
+    bg-accent  
+    transition 
+    transition-bg
+    ease-out-sine
+    duration-400 
   `}
 
   .marquee{
