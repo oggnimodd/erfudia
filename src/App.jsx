@@ -5,6 +5,7 @@ import { AppWrapper } from './App.style';
 import useThemeStore from './store/useThemeStore';
 import useColorSchemeStore from './store/useColorSchemeStore';
 import Footer from './layout/Footer/Footer';
+import ColorSchemePicker from './common/ColorSchemePicker/ColorSchemePicker';
 
 const App = () => {
   const theme = useThemeStore((state) => state.theme);
@@ -13,8 +14,9 @@ const App = () => {
   return (
     <AppWrapper
       id="app"
-      className={`${theme} obsidian`}
+      className={`${theme} ${colorScheme}`}
     >
+      <ColorSchemePicker />
       <Header />
       <Routes />
       <Footer />
