@@ -13,7 +13,8 @@ export const PaginationWrapper = styled.div`
 
 export const NavigationButton = styled(Link)`
   ${tw`
-    text-2xl 
+    text-sm
+    md:text-2xl 
     text-black 
     dark:text-white 
     flex 
