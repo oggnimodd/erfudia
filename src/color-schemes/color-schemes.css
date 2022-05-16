@@ -49,9 +49,14 @@
   --accent: #eb65d4;
 }
 
-.obsidian {
+.noir-fiction {
   --primary: #0e0303;
   --accent: #e9065d;
+}
+
+.neverything {
+  --primary: #091920;
+  --accent: #ECB365;
 }
 
 
