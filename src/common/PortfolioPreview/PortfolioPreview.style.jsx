@@ -11,28 +11,28 @@ export const PreviewWrapper = styled(Wrapper)`
   `}
 
   .my-masonry-grid {
-      ${tw`
-        flex 
-        ml-[-20px]  
-        md:ml-[-70px] 
-        w-[calc(100% + 20px)]
-        md:w-[calc(100% + 70px)]
-      `}
-    }
-    .my-masonry-grid_column {
-      ${tw`
-        pl-[20px]
-        md:pl-[70px]
-        bg-clip-padding
-      `}
-    }
-    /* Style your items */
-    .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-      ${tw`
-        mb-[20px]
-        md:mb-[70px]
-      `}
-    }
+    ${tw`
+      flex 
+      ml-[-20px]  
+      md:ml-[-70px] 
+      w-[calc(100% + 20px)]
+      md:w-[calc(100% + 70px)]
+    `}
+  }
+  .my-masonry-grid_column {
+    ${tw`
+      pl-[20px]
+      md:pl-[70px]
+      bg-clip-padding
+    `}
+  }
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    ${tw`
+      mb-[20px]
+      md:mb-[70px]
+    `}
+  }
 `;
 
 export const PreviewHeader = styled.div`
