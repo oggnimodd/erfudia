@@ -10,7 +10,7 @@ export const NavigationWrapper = styled(Wrapper)`
     bg-white
     top-[84px]
     left-0
-    z-[1000]
+    z-[2000000]
     fixed
   `}
 
