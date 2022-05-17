@@ -1,0 +1,4 @@
+{
+  "watch": ["public/admin"],
+  "ext": "json"
+}
