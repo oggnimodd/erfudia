@@ -252,7 +252,7 @@
         },
         {
           "label": "Testimonial",
-          "name": "testiomial",
+          "name": "testimonial",
           "pattern": [
             "^.{3,300}$",
             "Must be between 3 and 300 chars"

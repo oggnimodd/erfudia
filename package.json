@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "gen-theme": "node ./src/color-schemes/generateColorSchemes.js"
+    "gen-theme": "node ./src/color-schemes/generateColorSchemes.js",
+    "watch:config" : "nodemon scripts/watch-cms-config.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.8.8",
