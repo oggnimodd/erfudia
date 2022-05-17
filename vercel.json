@@ -1,9 +1,6 @@
 {
-  "routes": [
-    {
-      "src": "/[^.]+",
-      "dest": "/",
-      "status": 200
-    }
+  "rewrites": [
+    { "source": "/config.yml", "destination": "/admin/config.yml" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
