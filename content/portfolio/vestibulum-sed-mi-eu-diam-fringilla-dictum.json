@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "Website design",
+    "Creative Direction"
+  ],
+  "title": "Vestibulum sed mi eu diam fringilla dictum",
+  "description": "Maecenas ac sollicitudin nisi, nec consectetur tellus. Donec venenatis in nulla non volutpat. Vestibulum sed mi eu diam fringilla dictum ut ac augue. Nulla laoreet vulputate risus et dapibus. Maecenas vitae lectus pellentesque nisi faucibus dignissim. Sed quis lorem orci. Donec blandit mollis lorem, eget feugiat justo rutrum sed.",
+  "portfolio-images": [
+    "/images/uploads/pexels-photo-4322027.jpeg",
+    "/images/uploads/pexels-photo-7888756.jpeg",
+    "/images/uploads/pexels-photo-776336_1.jpeg",
+    "/images/uploads/pexels-photo-3194519.jpeg"
+  ],
+  "company-website": "https://www.facebook.com/",
+  "thumbnail": "https://images.pexels.com/photos/5438826/pexels-photo-5438826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "id": "83a275b5-4411-403d-85c8-4f6e88bd6595"
+}
