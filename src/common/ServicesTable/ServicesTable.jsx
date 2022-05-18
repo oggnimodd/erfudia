@@ -1,6 +1,5 @@
 import React from 'react';
 import short from 'short-uuid';
-import { services } from '../../data/services';
 import { isNotEmpty } from '../../util/isNotEmpty';
 import {
   Row,
@@ -10,6 +9,9 @@ import {
   Description,
   ServicesTableWrapper,
 } from './ServicesTable.style';
+import files from '../../data/cms';
+
+const { services } = files;
 
 const ServicesTable = () => {
   return (
@@ -20,7 +22,7 @@ const ServicesTable = () => {
             <Row key={short.generate()}>
               <Number>0{id + 1}</Number>
               <Content>
-                <Label>{item.label}</Label>
+                <Label>{item.title}</Label>
                 <Description>{item.description}</Description>
               </Content>
             </Row>
