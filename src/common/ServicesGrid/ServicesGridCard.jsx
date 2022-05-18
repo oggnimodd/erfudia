@@ -7,12 +7,12 @@ import {
 } from './ServicesGrid.style';
 
 const ServicesGridCard = ({ item, order }) => {
-  const { label, description } = item;
+  const { title, description } = item;
 
   return (
     <Card>
       <Label>
-        {label}
+        {title}
       </Label>
       <Description>{description}</Description>
       <Number>
