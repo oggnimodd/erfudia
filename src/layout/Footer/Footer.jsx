@@ -41,7 +41,7 @@ const Footer = () => {
               </a>
             </Item>
             <Item>
-              <a href="mailto:mail@erufida.com">
+              <a href="mailto:mail@erfudia.com">
                 mail@erufida.com
               </a>
             </Item>
