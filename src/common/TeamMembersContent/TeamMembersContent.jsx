@@ -2,8 +2,10 @@ import React from 'react';
 import short from 'short-uuid';
 import TeamMemberCard from '../TeamMemberCard/TeamMemberCard';
 import { TeamMembersGrid } from './TeamMembersContent.style';
-import { teamMembers } from '../../data/teamMembers';
 import { isNotEmpty } from '../../util/isNotEmpty';
+import files from '../../data/cms';
+
+const { teamMembers } = files;
 
 const TeamMembersContent = ({ preview }) => {
   const displayedMembers = preview ? teamMembers.slice(0, 3) : teamMembers;
