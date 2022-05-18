@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "Website design"
+  ],
+  "title": "Sed congue justo et mauris vestibulum",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis dolor, sit amet fringilla est. Vestibulum vitae metus vitae libero ullamcorper laoreet. Nam auctor mi vel sem finibus fringilla. Sed congue justo et mauris vestibulum, in consequat nisl egestas. Mauris ut mauris at lorem mattis tempus.",
+  "thumbnail": "https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "portfolio-images": [
+    "/images/uploads/pexels-photo-1616403.jpeg",
+    "/images/uploads/pexels-photo-3194519.jpeg",
+    "/images/uploads/pexels-photo-4322027.jpeg",
+    "/images/uploads/pexels-photo-7888756.jpeg",
+    "/images/uploads/pexels-photo-7888979.jpeg"
+  ],
+  "company-website": "https://duckduckgo.com/",
+  "id": "9fa86f9c-798f-4149-a5eb-255583a8c276"
+}
