@@ -11,8 +11,10 @@ import {
 } from './Testimonials.style';
 import CarouselItem from './CarouselItem';
 import { isNotEmpty } from '../../util/isNotEmpty';
-import { testimonials } from '../../data/testimonials';
 import useSwiperRef from '../../hooks/useSwiperRef';
+import files from '../../data/cms';
+
+const { testimonials } = files;
 
 // Install swiper navigation plugin
 SwiperCore.use([Navigation, A11y, Pagination]);

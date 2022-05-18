@@ -7,11 +7,11 @@ import {
 } from './Testimonials.style';
 
 const CarouselItem = ({ item }) => {
-  const { text, name, company } = item;
+  const { testimonial, name, company } = item;
 
   return (
     <CarouseItem>
-      <TestimonialText>{text}</TestimonialText>
+      <TestimonialText>{testimonial}</TestimonialText>
       <TestimonialName>{name}</TestimonialName>
       <TestimonialCompany>{company}</TestimonialCompany>
     </CarouseItem>
