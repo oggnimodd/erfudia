@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "Website design",
+    "Website development"
+  ],
+  "title": "Aliquam sit amet augue vel metus feugiat",
+  "description": "Maecenas posuere nisi sed tincidunt fringilla. Quisque id nibh sagittis, maximus sem vitae, efficitur odio. Nunc vestibulum, orci nec viverra molestie, purus mi scelerisque quam, quis tincidunt lectus massa ac turpis. Duis mi justo, commodo id pulvinar facilisis, lobortis vitae turpis. In sollicitudin cursus leo, sed sollicitudin dui elementum in. Vivamus rhoncus maximus mi, vitae convallis diam. Cras porttitor ligula lobortis, blandit lorem id, dictum leo.",
+  "thumbnail": "https://images.pexels.com/photos/8727018/pexels-photo-8727018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "portfolio-images": [
+    "/images/uploads/pexels-photo-7888756.jpeg",
+    "/images/uploads/pexels-photo-3194519.jpeg",
+    "/images/uploads/pexels-photo-1616403.jpeg",
+    "/images/uploads/pexels-photo-7888979.jpeg",
+    "/images/uploads/pexels-photo-4322027.jpeg"
+  ],
+  "company-website": "https://www.youtube.com/",
+  "id": "937d40b2-cbb0-4be9-8ac4-14b85b990aaa"
+}
