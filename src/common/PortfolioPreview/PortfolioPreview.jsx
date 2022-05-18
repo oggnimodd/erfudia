@@ -10,10 +10,16 @@ import {
 import PreviewCard from './PreviewCard';
 import { breakpoints } from '../../config/breakpoints';
 import { isNotEmpty } from '../../util/isNotEmpty';
-import { portfolio } from '../../data/portfolio';
 import Button from '../Button/Button';
 import Link from '../Link/Link';
 import { HeaderLink } from '../HeaderLink';
+import files from '../../data/cms';
+
+const { portfolio: p, topProjects } = files;
+const choosenProjects = topProjects[0].list;
+const portfolio = p.filter((i) => {
+  return !choosenProjects.includes(i.title);
+});
 
 const {
   sm,
@@ -48,7 +54,7 @@ const PortfolioPreview = () => {
         </PreviewHeader>
 
         {
-          isNotEmpty(portfolio) && portfolio.map((item) => {
+          isNotEmpty(portfolio) && portfolio.slice(0, 4).map((item) => {
             return (
               <PreviewCard
                 key={short.generate()}

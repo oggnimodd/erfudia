@@ -17,7 +17,7 @@ const routes = [
   { path: '/', el: Home },
   { path: '/our-team', el: OurTeam },
   { path: '/portfolio', el: Portfolio },
-  { path: '/portfolio/:portfolioId', el: PortfolioDetails },
+  { path: '/portfolio/:slug', el: PortfolioDetails },
   { path: '/contact', el: Contact },
   { path: '/services', el: Services },
   { path: '*', el: NotFound },

@@ -74,10 +74,14 @@ export const CardImage = styled.img`
 
 export const CardTitle = styled.div`
   ${tw`
-    text-2xl 
+    text-lg 
     font-bold
     dark:text-accent
   `}
 `;
 
-export const CardCategory = styled(Subtitle)``;
+export const CardCategory = styled(Subtitle)`
+  ${tw`
+    -mt-3
+  `}
+`;

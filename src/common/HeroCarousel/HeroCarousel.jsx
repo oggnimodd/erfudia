@@ -13,8 +13,15 @@ import {
 } from './HeroCarousel.style';
 import CarouselItem from './CarouselItem';
 import { breakpoints } from '../../config/breakpoints';
-import { carouselSlides } from '../../data/carouselSlides';
 import { isNotEmpty } from '../../util/isNotEmpty';
+import files from '../../data/cms';
+
+// Get top projects
+const { topProjects, portfolio } = files;
+const choosenProjects = topProjects[0].list;
+const carouselSlides = portfolio.filter((i) => {
+  return choosenProjects.includes(i.title);
+});
 
 // Install swiper navigation plugin
 SwiperCore.use([Navigation, A11y]);

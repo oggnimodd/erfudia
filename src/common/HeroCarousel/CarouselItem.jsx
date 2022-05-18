@@ -1,19 +1,24 @@
 import React from 'react';
+import slugify from 'slugify';
 import { Slide, Description } from './HeroCarousel.style';
 import ImageFullWidth from '../ImageFullWidth/ImageFullWidth';
+import Link from '../Link/Link';
 
 const CarouselItem = ({ item }) => {
-  const { imageUrl, title } = item;
+  const { thumbnail, title } = item;
+  const slug = slugify(title, { lower: true });
 
   return (
     <Slide>
       <ImageFullWidth
-        src={imageUrl}
+        src={thumbnail}
         alt={title}
       />
-      <Description>
-        {item.title}
-      </Description>
+      <Link to={`/portfolio/${slug}`}>
+        <Description>
+          {item.title}
+        </Description>
+      </Link>
     </Slide>
   );
 };

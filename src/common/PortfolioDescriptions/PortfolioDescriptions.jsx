@@ -6,11 +6,11 @@ import {
 import { isNotEmpty } from '../../util/isNotEmpty';
 import { formatUrl } from '../../util/formatUrl';
 
-const ProjectTags = ({ tags }) => {
+const ProjectTags = ({ categories }) => {
   return (
     <Tags>
       {
-        isNotEmpty(tags) && tags.map((item) => {
+        isNotEmpty(categories) && categories.map((item) => {
           return (
             <li key={short.generate()}>
               {item}
@@ -23,11 +23,11 @@ const ProjectTags = ({ tags }) => {
 };
 
 const PortfolioDescriptions = ({
-  title, tags, description, companyWebsite,
+  title, categories, description, companyWebsite,
 }) => {
   return (
     <Wrapper>
-      <ProjectTags tags={tags} />
+      <ProjectTags categories={categories} />
       <Meta>
         <Title>{title}</Title>
         <Description>{description}</Description>

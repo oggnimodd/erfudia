@@ -1,21 +1,28 @@
 import React from 'react';
+import slugify from 'slugify';
 import { Image as CardImage, ProjectInfo as CardInfo } from '../ListCard/ListCard';
 import { CardWrapper }from './PortfolioCard.style';
+import Link from '../Link/Link';
 
 const PortfolioCard = ({ item }) => {
-  const { imageUrl, title, category } = item;
+  const { thumbnail, title, categories } = item;
+
+  const path = slugify(title, { lower: true });
 
   return (
     <CardWrapper>
-      <CardImage
-        ratio={8 / 9}
-        imageUrl={imageUrl}
-        alt={title}
-      />
+      <Link to={`/portfolio/${path}`}>
+        <CardImage
+          ratio={8 / 9}
+          imageUrl={thumbnail}
+          alt={title}
+        />
+      </Link>
 
       <CardInfo
+        path={path}
         title={title}
-        category={category}
+        category={categories.join(', ')}
       />
     </CardWrapper>
   );

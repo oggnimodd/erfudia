@@ -13,7 +13,7 @@ const masonryBreakpoints = {
   [sm]: 1,
 };
 
-const PortfolioImages = ({ images }) => {
+const PortfolioImages = ({ images, title }) => {
   return (
     <ListWrapper>
       <Masonry
@@ -25,7 +25,10 @@ const PortfolioImages = ({ images }) => {
         {
           isNotEmpty(images) && images.map((i) => {
             return (
-              <Image src={i} />
+              <Image
+                key={`${title}-${i}`}
+                src={i}
+              />
             );
           })
         }

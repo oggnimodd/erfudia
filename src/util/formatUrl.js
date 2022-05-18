@@ -1,3 +1,3 @@
 export const formatUrl = (url) => {
-  return url.replace(/^https?:\/\//, '');
+  return url.replace(/^https?:\/\//, '').replaceAll('/', '');
 };

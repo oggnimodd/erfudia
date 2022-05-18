@@ -33,11 +33,11 @@ export const TeamInfo = ({ name, socials, role }) => {
   );
 };
 
-export const ProjectInfo = ({ title, category }) => {
+export const ProjectInfo = ({ title, category, path }) => {
   return (
     <CardInfo>
       <Description>
-        <Link to="/portfolio/test">
+        <Link to={path}>
           <Name>{title}</Name>
         </Link>
         <Role>{category}</Role>
