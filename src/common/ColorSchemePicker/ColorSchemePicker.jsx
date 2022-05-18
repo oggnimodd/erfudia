@@ -13,7 +13,7 @@ const ColorSchemePicker = () => {
     setShowOptions(!showOptions);
   };
 
-  useOnClickOutside(optionsRef, () => setShowOptions(false), showOptions);
+  useOnClickOutside(optionsRef, () => setShowOptions(false), showOptions, false);
 
   return (
     <>
