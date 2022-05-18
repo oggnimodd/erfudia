@@ -12,7 +12,10 @@ import {
   AccordionContent,
 } from './Accordion.style';
 import { isNotEmpty } from '../../util/isNotEmpty';
-import { faqs } from '../../data/faqs';
+// import { faqs } from '../../data/faqs';
+import files from '../../data/cms';
+
+const { faqs } = files;
 
 const Accordion = () => {
   return (
@@ -31,7 +34,7 @@ const Accordion = () => {
                 <AccordionTrigger>
                   <AiOutlinePlus className="plus-sign" />
                   <AiOutlineMinus className="minus-sign" />
-                  {item.question}
+                  {item.question} ?
                 </AccordionTrigger>
                 <AccordionContent>
                   <p>{item.answer}</p>
