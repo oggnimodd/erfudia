@@ -100,7 +100,7 @@ const ContactForm = () => {
         </FormSection>
 
         <FormSection>
-          <FormDescription>Question</FormDescription>
+          <FormDescription>Message</FormDescription>
           <Message>
             <Textarea
               required
