@@ -20,7 +20,7 @@ const Questions = () => {
         </Title>
         <div tw="text-sm dark:text-white">
           <p>Send us an email here</p>
-          <p>mail@erufida.com</p>
+          <p>mail@erfudia.com</p>
         </div>
         <Socmed>
           <SocmedHeader>Check out our Social Media</SocmedHeader>
