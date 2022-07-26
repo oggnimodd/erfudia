@@ -42,7 +42,7 @@ const Footer = () => {
             </Item>
             <Item>
               <a href="mailto:mail@erfudia.com">
-                mail@erufida.com
+                mail@erfudia.com
               </a>
             </Item>
             <Item>Tokyo, JP</Item>
